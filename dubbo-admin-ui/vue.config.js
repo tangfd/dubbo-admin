@@ -30,7 +30,7 @@ module.exports = {
     publicPath: '/',
     proxy: {
       '/': {
-        target: 'http://localhost:8080/',
+        target: 'http://localhost:55555/',
         changeOrigin: true,
         pathRewrite: {
           '^/': '/'
